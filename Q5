@@ -1,0 +1,23 @@
+Take 2 numbers as input and print the largest number.
+sol:
+
+
+package random;
+
+import java.util.Scanner;
+
+public class practice {
+    public static void main(String[] args) {
+       Scanner no = new Scanner(System.in);
+       System.out.println("enter two numbers");
+       int num1, num2;
+       num1 = no.nextInt();
+       num2 = no.nextInt();
+       if(num1>num2){
+          System.out.println("num1 is the largest!");
+       }
+       else{
+          System.out.println("num2 is the largest!");
+       }
+    }
+}
